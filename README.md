@@ -1,7 +1,7 @@
 ## 1. Setup Mario
 
 ```python
-!pip install gym_super_mario_bros==7.3.0 nes_py
+!pip install gym_super_mario_bros==7.3.0 nes_py```
 
 # Import the game
 import gym_super_mario_bros
