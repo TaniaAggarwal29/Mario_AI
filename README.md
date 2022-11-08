@@ -32,3 +32,8 @@ for step in range(100000):
 # Close the game
 env.close()
 ```
+
+
+https://user-images.githubusercontent.com/63960670/200620662-6b5b7c73-56ee-430a-9d06-9f317906f200.mp4
+
+
