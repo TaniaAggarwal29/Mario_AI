@@ -23,7 +23,7 @@ done = True
 for step in range(100000): 
     # Start the game to begin with 
     if done: 
-        # Start the gamee
+        # Start the game
         env.reset()
     # Do random actions
     state, reward, done, info = env.step(env.action_space.sample())
@@ -58,12 +58,16 @@ from matplotlib import pyplot as plt
 ```python
 # 1. Create the base environment
 env = gym_super_mario_bros.make('SuperMarioBros-v0')
+
 # 2. Simplify the controls 
 env = JoypadSpace(env, SIMPLE_MOVEMENT)
+
 # 3. Grayscale
 env = GrayScaleObservation(env, keep_dim=True)
+
 # 4. Wrap inside the Dummy Environment
 env = DummyVecEnv([lambda: env])
+
 # 5. Stack the frames
 env = VecFrameStack(env, 4, channels_order='last')
 ```
