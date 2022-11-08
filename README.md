@@ -86,6 +86,8 @@ plt.show()
 ```
 
 
+![Capture](https://user-images.githubusercontent.com/63960670/200667215-11e0718c-14f3-4ecd-8b1e-1959856eafe5.PNG)
+
 
 ## 3. Train the RL Model
 
