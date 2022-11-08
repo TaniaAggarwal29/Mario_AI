@@ -1,20 +1,19 @@
-# Mario_AI
-Assignment for Neural Network
-
-
 ## 1. Setup Mario
 
 ```python
 !pip install gym_super_mario_bros==7.3.0 nes_py
+
 # Import the game
 import gym_super_mario_bros
 # Import the Joypad wrapper
 from nes_py.wrappers import JoypadSpace
 # Import the SIMPLIFIED controls
 from gym_super_mario_bros.actions import SIMPLE_MOVEMENT
+
 # Setup game
 env = gym_super_mario_bros.make('SuperMarioBros-v0')
 env = JoypadSpace(env, SIMPLE_MOVEMENT)
+
 # Create a flag - restart or not
 done = True
 # Loop through each frame in the game
