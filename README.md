@@ -161,3 +161,15 @@ while True:
     state, reward, done, info = env.step(action)
     env.render()
 ```
+
+
+After loading model 500,000:
+
+https://user-images.githubusercontent.com/63960670/200736744-dd614e70-893d-4396-9192-80ab206739ea.mp4
+
+
+After loading model 100,000:
+
+https://user-images.githubusercontent.com/63960670/200737857-7b377661-b9fa-47f6-ae93-4b3b03938c80.mp4
+
+
